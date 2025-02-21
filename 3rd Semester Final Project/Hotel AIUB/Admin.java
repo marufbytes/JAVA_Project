@@ -58,8 +58,6 @@ public class Admin extends JFrame {
         btn2.setBackground(Color.decode("#34495e"));
         c.add(btn2);
 
-
-        
         nBtn = new JButton("");
         nBtn.setBounds(0, 0, 0, 0);
         c.add(nBtn);
@@ -74,18 +72,15 @@ public class Admin extends JFrame {
             }
         });
 
-
-
         // Back
         btn2.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent ae) {
-                
+
                 setVisible(false);
                 Login frame = new Login();
                 frame.setVisible(true);
             }
         });
-
 
     }
 
